@@ -28,6 +28,7 @@ def main():
 
     if len( args ) != 1:
         print "Please provide exactly one input json file."
+        sys.exit()
 
     input_file = args[0]
     print "################################"
